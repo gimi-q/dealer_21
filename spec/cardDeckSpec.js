@@ -3,10 +3,7 @@ describe('cardDeck', function() {
     var cardDeck;
 
     describe('upon intialisation', function() {
-        it('creates a deck of 52 cards', function() {
-            cardDeck = new CardDeck(52);
-            expect(cardDeck.size).toEqual(52);
-        });
+        
 
         it('the deck is populated with point values in an array', function() {
             cardDeck = new CardDeck(52);

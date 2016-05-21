@@ -1,5 +1,5 @@
-var CardDeck = function(number) {
-  this.size = number;
+var CardDeck = function() {
+
   this.cards = [2,2,2,2,
                 3,3,3,3,
                 4,4,4,4,
