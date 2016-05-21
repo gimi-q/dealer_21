@@ -4,10 +4,6 @@ describe('dealer21Game', function() {
 
     describe('upon intialisation of a new Game', function() {
 
-        xit('deck is shuffled', function() {
-
-        });
-
         xit('each Player is given two cards (a hand)', function() {
 
         });
