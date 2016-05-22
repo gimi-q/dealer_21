@@ -32,3 +32,8 @@ CardDeck.prototype.shuffle = function(cards) {
     return cards;
 
 };
+
+CardDeck.prototype.dealACard = function () {
+  var dealtCard = this.cards.pop();
+  return dealtCard;
+};

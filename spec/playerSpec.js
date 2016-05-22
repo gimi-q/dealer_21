@@ -18,13 +18,20 @@ describe('player', function() {
 
     describe('Player(Sam) plays first', function() {
 
-        xit('if no hand equals blackjack - player(Sam) draws cards from top of deck', function() {
+        xit('a hand is given a score', function() {
 
         });
 
-        xit('player(Sam) stops drawing cards when total is greater than 17', function() {
+        xit('if no hand equals blackjack straight away - player(Sam) draws' /
+            'cards from top of deck',
+            function() {
 
-        });
+            });
+
+        xit('player(Sam) stops drawing cards when total is greater than 17',
+            function() {
+
+            });
 
         xit('player(Sam) loses game if is total higher than 17', function() {
 
@@ -32,20 +39,24 @@ describe('player', function() {
 
     });
 
-    describe('When Player(sam) has stopped drawing cards - Player(Dealer) plays', function() {
+    describe('When Player(sam) has stopped drawing cards ' /
+        '- Player(Dealer) plays', function() {
 
-        xit('player(Dealer) draws cards from top of deck', function() {
+            xit('player(Dealer) draws cards from top of deck', function() {
+
+            });
+
+            xit('player(Dealer) stops drawing cards when total' /
+                ' is greater than player(Sam)',
+                function() {
+
+                });
+
+            xit('player(Dealer) loses game if is total higher than 21',
+              function() {
+
+            });
 
         });
-
-        xit('player(Dealer) stops drawing cards when total is greater than player(Sam)', function() {
-
-        });
-
-        xit('player(Dealer) loses game if is total higher than 21', function() {
-
-        });
-
-    });
 
 })
