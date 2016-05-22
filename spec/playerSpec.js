@@ -18,8 +18,11 @@ describe('player', function() {
 
     describe('Player(Sam) plays first', function() {
 
-        xit('a hand is given a score', function() {
-
+        it('a hand is given a score', function() {
+          player = new Player('Sam');
+          player.addToHand(10);
+          player.addToHand(5);
+          expect(player.score()).toEqual(15);
         });
 
         xit('if no hand equals blackjack straight away - player(Sam) draws' /
@@ -33,7 +36,7 @@ describe('player', function() {
 
             });
 
-        xit('player(Sam) loses game if is total higher than 17', function() {
+        xit('player(Sam) loses game if total is higher than 17', function() {
 
         });
 
